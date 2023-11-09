@@ -1,0 +1,15 @@
+{
+  "type": "mssql",
+  "host": "localhost",
+  "port": 1433,
+  "username": "myuser",
+  "password": "mypassword123",
+  "database": "midatabase",
+  "entities": ["dist/**/*.entity.js"],
+ " autoLoadEntities": true,
+  "synchronize": true,
+  "options" : {
+      "encrypt": false,
+      "trustServerCertificate": false
+  }
+}
